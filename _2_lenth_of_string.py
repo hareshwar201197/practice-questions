@@ -14,7 +14,7 @@
 #     return counter
 # print(findLen(str))
 
-# ussing while loop
+# using while loop
 
 # str = input("Enter the string :")
 # def findlen(str):
@@ -28,7 +28,8 @@
 # using Reduce Method
 
 import functools
-string = input("Enetr your string : ")
+string = input("Enter your string : ")
+
 def findlen(string):
     return functools.reduce(lambda x,y: x+1,string,0)
 print(findlen(string))
