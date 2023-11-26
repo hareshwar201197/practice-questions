@@ -1,5 +1,6 @@
 
 # Factorial of a number
+
 no = int(input("Enter the input: "))
 
 
