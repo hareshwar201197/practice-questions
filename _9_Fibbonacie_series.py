@@ -1,6 +1,6 @@
 # Fibonacci series
 
-number = int(input ("Enter your number : "))  
+number = int(input("Enter your number : "))
   
 # First two terms  
 n1 = 0  
