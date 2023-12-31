@@ -5,7 +5,7 @@ def palindrome5(n):
     rev_n = 0
     while temp>0:
         digit = temp % 10
-        print(digit)
+        
         rev_n = rev_n * 10 + digit
         temp = temp // 10
     if n == rev_n:
